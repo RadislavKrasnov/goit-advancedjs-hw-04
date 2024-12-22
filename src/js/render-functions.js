@@ -21,4 +21,13 @@ const createGallery = images => {
   gallery.insertAdjacentHTML('beforeend', html);
 };
 
-export { createGallery };
+const renderMoreImages = images => {
+    const gallery = document.querySelector('.gallery');
+    const html = images.map(createImage).join('');
+    gallery.insertAdjacentHTML('beforeend', html);
+};
+
+export { 
+    createGallery,
+    renderMoreImages
+};

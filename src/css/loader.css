@@ -25,3 +25,12 @@
 .loader.is-active {
   display: inline-block;
 }
+
+.load-more-block {
+  position: relative;
+}
+
+.load-more-block .loader {
+  position: absolute;
+  top: 0;
+}

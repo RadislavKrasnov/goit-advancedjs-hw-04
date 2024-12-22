@@ -93,3 +93,12 @@ button:hover {
 .image-card a img {
   margin: 0 auto;
 }
+
+.load-more {
+  margin: 0 auto;
+  display: none;
+}
+
+.load-more.show {
+  display: block;
+}

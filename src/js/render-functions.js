@@ -22,12 +22,9 @@ const createGallery = images => {
 };
 
 const renderMoreImages = images => {
-    const gallery = document.querySelector('.gallery');
-    const html = images.map(createImage).join('');
-    gallery.insertAdjacentHTML('beforeend', html);
+  const gallery = document.querySelector('.gallery');
+  const html = images.map(createImage).join('');
+  gallery.insertAdjacentHTML('beforeend', html);
 };
 
-export { 
-    createGallery,
-    renderMoreImages
-};
+export { createGallery, renderMoreImages };
